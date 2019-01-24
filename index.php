@@ -83,7 +83,7 @@ if (empty($_SESSION['email'])) {
             <div class="container-fluid">
 
                 <?php
-                    include 'pages/users.php';
+                    include 'pages/add-users.php';
                 ?>
 
             </div>
