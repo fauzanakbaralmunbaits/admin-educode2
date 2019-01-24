@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/plugins/images/favicon.png">
-    <title>Cubic Admin Template</title>
+    <title>Admin EduCode</title>
     <!-- ===== Bootstrap CSS ===== -->
     <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- ===== Plugin CSS ===== -->

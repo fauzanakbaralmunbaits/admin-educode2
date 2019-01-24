@@ -10,9 +10,9 @@ if (empty($_SESSION['email'])) {
     if (isset($_SESSION['email'])) {
         $id = trim($_SESSION['email']);
     }
-    if (isset($_SESSION['photo'])) {
-        $photo = trim($_SESSION['photo']);
-    }
+    // if (isset($_SESSION['photo'])) {
+    //     $photo = trim($_SESSION['photo']);
+    // }
     if (isset($_SESSION['fullname'])) {
         $fullname = trim($_SESSION['fullname']);
     }
@@ -34,7 +34,7 @@ if (empty($_SESSION['email'])) {
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/plugins/images/favicon.png">
-    <title>Cubic Admin Template</title>
+    <title>Admin EduCode</title>
     <!-- ===== Bootstrap CSS ===== -->
     <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- ===== Plugin CSS ===== -->
@@ -82,9 +82,16 @@ if (empty($_SESSION['email'])) {
             <!-- ===== Page-Container ===== -->
             <div class="container-fluid">
 
-                <?php
-                    include 'pages/add-users.php';
-                ?>
+            <?php
+
+                if(file_exists('pages/'.$pages.'.php')){
+                    include ('pages/'.$pages.'.php');
+                }else{
+                    // header("location:pages/503.php");
+                    include ('pages/503.php');
+                }
+
+            ?>
 
             </div>
             <!-- ===== Page-Container-End ===== -->
