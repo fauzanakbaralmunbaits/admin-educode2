@@ -1,2 +1,3 @@
 # admin-educode2
-Template Cube Admin
+
+Template Cube Dashboard
