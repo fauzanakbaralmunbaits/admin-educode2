@@ -20,14 +20,14 @@
                             <td>Tiger Nixon</td>
                             <td>System Architect</td>
                             <td>Edinburgh</td>
-                            <th><a href="">Edit</a> | <a href="">Delete</a></th>
+                            <th><a href=""><i class="fa fa-pencil"></i></a> | <a href="" onclick="return confirm('Yakin ingin hapus data?')"><i class="fa fa-trash"></i></a></th>
                         </tr>
                         <tr>
                             <td><center>2</center></td>
                             <td>Tiger Nixon</td>
                             <td>System Architect</td>
                             <td>Edinburgh</td>
-                            <th><a href="">Edit</a> | <a href="">Delete</a></th>
+                            <th><a href=""><i class="fa fa-pencil"></i></a> | <a href="" onclick="return confirm('Yakin ingin hapus data?')"><i class="fa fa-trash"></i></a></th>
                         </tr>
                     </tbody>
                 </table>
