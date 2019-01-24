@@ -5,7 +5,7 @@
             <p class="text-muted m-b-30 font-13"> Tambah Otorisasi Back Office Educode </p>
             <div class="row">
                 <div class="col-sm-12 col-xs-12">
-                    <form action="" method="POST">
+                    <form action="controller/act-add-users.php" method="POST">
                         <div class="form-group">
                             <label for="exampleInputuname">Full Name</label>
                             <div class="input-group">
@@ -37,7 +37,7 @@
                             
                         </div>
                         <div class="form-group text-right">
-                            <button class="btn btn-inverse waves-effect waves-light  m-r-10"><a href="#" style="color:white;">Cancel</a></button>
+                            <button class="btn btn-inverse waves-effect waves-light  m-r-10"><a href="index.php?pages=users" style="color:white;">Cancel</a></button>
 	                        <button type="submit" class="btn btn-success waves-effect waves-light">Submit</button>
 	                    </div>
                     </form>
